@@ -4,8 +4,8 @@ Sorting algorithms implemented and benchmarked in C
 
 ## TODO:
 
-- [ ] [Selection Sort](https://www.geeksforgeeks.org/selection-sort/)
-- [ ] [Insertion Sort](https://www.geeksforgeeks.org/insertion-sort/)
+- [x] [Selection Sort](https://www.geeksforgeeks.org/selection-sort/)
+- [x] [Insertion Sort](https://www.geeksforgeeks.org/insertion-sort/)
 - [x] [Bubble Sort](https://www.geeksforgeeks.org/bubble-sort/)
 - [ ] [Merge Sort](https://www.geeksforgeeks.org/merge-sort/)
 - [ ] [Quick Sort](https://www.geeksforgeeks.org/quick-sort/)
