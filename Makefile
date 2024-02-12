@@ -3,10 +3,12 @@ LIBS   := -lc
 
 SRCDIR := ./src
 
+SRC = $(wildcard $(SRCDIR)/*.c)
+
 all : sort
 
-sort : $(SRCDIR)/main.c
-	$(CC) $(CFLAGS) -o $@ $< $(LIBS)
+sort : $(SRC)
+	$(CC) $(CFLAGS) -o $@ $^ $(LIBS)
 
 clean :
 	rm -f sort
